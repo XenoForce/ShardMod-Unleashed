@@ -4,6 +4,8 @@
 // health: 1E400
 
 
+health: 1400
+
 speed: 3.0
 
 accel: 0.7

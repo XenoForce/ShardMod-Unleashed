@@ -1,0 +1,37 @@
+type: UnitFactory
+name: Unit Factory (ShardMod)
+description: Unit Factory (ShardMod)
+
+health: 99000
+size: 3
+itemCapacity: 30
+
+consumes: {}
+
+plans: [
+	{ unit: sharded-strike1       , time: 90, requirements: [] }    // (type: flying)  (health:     80)  (aka: Blitz)
+	{ unit: sharded-player        , time: 90, requirements: [] }    // (type: flying)  (health:     90)
+	{ unit: sharded-spirit-drone  , time: 90, requirements: [] }    // (type: flying)  (health:    100)  (aka: Spirit Drone)
+	{ unit: sharded-viranophobia  , time: 90, requirements: [] }    // (type: flying)  (health:    130)  (aka: Virusophobia)
+	
+	{ unit: sharded-meteor        , time: 90, requirements: [] }    // (type: flying)  (health:    180)
+	{ unit: sharded-glayer        , time: 90, requirements: [] }    // (type: flying)  (health:    400)
+	{ unit: sharded-asteroid      , time: 90, requirements: [] }    // (type: flying)  (health:    520)
+	{ unit: sharded-ship1         , time: 90, requirements: [] }    // (type: flying)  (health:    700)  (aka: Parent)
+	
+	{ unit: sharded-trinal        , time: 90, requirements: [] }    // (type: flying)  (health:    750)
+	{ unit: sharded-unlord        , time: 90, requirements: [] }    // (type: flying)  (health:   1E400)  (aka: anti voider)
+	{ unit: sharded-tetralis      , time: 90, requirements: [] }    // (type: flying)  (health:   1650)
+	{ unit: sharded-ship2         , time: 90, requirements: [] }    // (type: flying)  (health:   6000)  (aka: parser)
+	
+	{ unit: sharded-1-kether      , time: 90, requirements: [] }    // (type: mech)  (health:   200)
+	{ unit: sharded-tegenaria     , time: 90, requirements: [] }    // (type: legs)  (health:   300)
+]
+
+requirements: []
+buildCostMultiplier: 0.1
+
+category: units
+research: duo
+
+alwaysUnlocked: true
