@@ -1,0 +1,7 @@
+name: unlock-shard
+displayName: ShardMod - Unleashed
+author: XenoTale
+description: The components of ShardMod is unlocked.
+version: "1.0.1"
+minGameVersion: "136"
+dependencies: [ sharded ]
